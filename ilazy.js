@@ -22,6 +22,9 @@
 		var zn1 = $('.main_slider_block .owl-dots').css('content');
 		//$('.main_slider_block .owl-dots').css({ 'display' : eval(zn1) });
 		document.querySelector(".main_slider_block .owl-dots").style.display = eval(zn1);
+		//$("body")
+		$('.main_slider_block .owl-dots').addClass("dummyClass").removeClass("dummyClass");
+
 	});
 		
 	//Carusell
